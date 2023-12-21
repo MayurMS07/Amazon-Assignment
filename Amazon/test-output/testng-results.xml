@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1688" started-at="2023-12-21T15:09:09 IST" finished-at="2023-12-21T15:09:10 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4034c28c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="1688" started-at="2023-12-21T15:09:09 IST" finished-at="2023-12-21T15:09:10 IST">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@4034c28c]" name="setUpClass" is-config="true" duration-ms="820" started-at="2023-12-21T15:09:09 IST" finished-at="2023-12-21T15:09:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4034c28c]" name="runScenario" duration-ms="714" started-at="2023-12-21T15:09:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-21T15:09:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for iPhone, select product, and add to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Amazon Website Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at stepdefinition.Amazon_Search_Phone_TestCase.user_already_in_home_page(Amazon_Search_Phone_TestCase.java:28)
+at ✽.the user is on the home page(file:///C:/Users/mayur/OneDrive/Desktop/Program/Amazon/src/test/resources/features/Amazon.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4034c28c]" name="runScenario" duration-ms="39" started-at="2023-12-21T15:09:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-21T15:09:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register a new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Amazon Registration Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at stepdefinition.Amazion_Register_TestCase.the_user_is_on_the_registration_page(Amazion_Register_TestCase.java:24)
+at ✽.the user is on the registration page(file:///C:/Users/mayur/OneDrive/Desktop/Program/Amazon/src/test/resources/features/Amazon_Registration.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4034c28c]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2023-12-21T15:09:10 IST" finished-at="2023-12-21T15:09:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
